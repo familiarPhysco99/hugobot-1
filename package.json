@@ -4,15 +4,12 @@
   "description": "HugoBot. A discord bot made by Familiar#9394",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --hot"
   },
   "author": "Familiar#9394",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^11.3.2",
     "enmap": "^2.6.3"
-  },
-"scripts": {
-    "start": "webpack-dev-server --hot"
-}
+  }
 }
