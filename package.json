@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --hot
-    "start": "webpack-dev-server -d --config webpack.dev.config.js --content-base public/ --progress --colors"
   },
   "author": "Familiar#9394",
   "license": "ISC",
