@@ -1,15 +1,25 @@
 {
-  "name": "hugobot",
-  "version": "1.0.0",
-  "description": "HugoBot. A discord bot made by Familiar#9394",
-  "main": "index.js",
+
+  "name": "Test",
+
+  "description": "Test",
+
+  "version": "0.0.0",
+
+  "main": "bot.js",
+
   "scripts": {
-    "start": "webpack-dev-server --hot
+
+    "start": "node bot.js"
+
   },
-  "author": "Familiar#9394",
-  "license": "ISC",
+
   "dependencies": {
-    "discord.js": "^11.3.2",
-    "enmap": "^2.6.3"
+
+    "discord.js": "11.1.0",
+
+    "request": "2.81.0"
+
   }
+
 }
