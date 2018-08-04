@@ -196,11 +196,6 @@ bot.on('guildCreate', guild => {
 })
 })
 
-// Bot Status
-bot.on('ready', () => {
-    bot.user.setActivity(bot.guilds.size + " servers, and " + bot.users.size + " users!", {type: 'WATCHING'});
-})
-
 // Bot Ready Message
 bot.on("ready", () => {
     console.log("HugoBot is ready!");
